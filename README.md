@@ -26,3 +26,6 @@
 
 #### List commits formatted:
 `git log --grep=Merged --pretty="%ad - %s - %an" --date=short`
+
+#### Revert to a previous commit (losing all uncommitted changes)
+`reset --hard 01b34fa`
