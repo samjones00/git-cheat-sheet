@@ -15,6 +15,12 @@
 
 ## Managing commits
 
+#### Uncommit file after push:
+
+`git rm --cached /path/to/file`\
+`git commit -am "Remove file"`\
+`git push`
+
 #### Undo last commit:
 `git reset HEAD~`
 
