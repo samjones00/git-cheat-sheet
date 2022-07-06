@@ -21,6 +21,9 @@
 `git commit -am "Remove file"`\
 `git push`
 
+#### View commit log for a file
+`git log -p -- filename`
+
 #### Undo last commit:
 `git reset HEAD~`
 
